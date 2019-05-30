@@ -1,0 +1,7 @@
+{
+  "name": "ocrOne",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,11 @@
+{
+  "/": {
+      "target": "aip.baidubce.com/rest/2.0/ocr/v1/numbers?access_token=24.86c1ba8b52932446ffb176b82085e267.2592000.1561521003.282335-16354000",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true,
+      "pathRewrite": {
+          "^/": ""
+      }
+  }
+}

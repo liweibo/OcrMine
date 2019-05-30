@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button expand="full" (click)="takePicture('camera')">拍照识别...</ion-button>
+  <ion-button expand="full" (click)="takePicture('library')">相册识别...</ion-button>
+  <div [ngClass]="{'hidden': !show}">
+    <ion-progress-bar type="indeterminate" reversed="true"></ion-progress-bar>
+  </div>
+
+  <p> 识别到的数据：{{sout}}</p>
+  <!-- <p>照片数据1：{{sout1}}</p> -->
+
+  <!-- <p>照片数据64：{{cameraData}}</p> -->
+<!-- <div style="height: 240px;width: 240px;" [ngClass]="{'hidden': !show}">
+  <img src="{{cameraData}}" alt="">
+</div> -->
+
+</ion-content>
